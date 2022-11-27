@@ -1,0 +1,14 @@
+name: Aparatus
+description: A private bot for great purposes
+version: 0.0.1
+
+environment:
+  sdk: ">=2.14.2 <3.0.0"
+
+dependencies:
+  dotenv: ^4.0.1
+  lints: ^2.0.1
+  nyxx: ^4.3.0
+  nyxx_commands: ^4.3.0
+  nyxx_extensions: ^3.1.0
+  nyxx_pagination: ^2.3.0
