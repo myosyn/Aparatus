@@ -8,7 +8,8 @@ void main() async {
   final bot = NyxxFactory.createNyxxWebsocket(
       token!,
       GatewayIntents.guildBans |
-      GatewayIntents.directMessages
+      GatewayIntents.directMessages |
+      GatewayIntents.guildInvites
   );
 
   bot
