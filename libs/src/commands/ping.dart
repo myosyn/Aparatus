@@ -14,6 +14,8 @@ ChatCommand ping = ChatCommand(
         ..addField(name: "Gateway Latency", content: "${gatewayLatency}ms", inline: true);
 
         
+      final response = await context.respond(MessageBuilder.embed(embed));
 
+      await response.edit(MessageBuilder.embed(embed));
 
     }));
